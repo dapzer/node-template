@@ -1,8 +1,30 @@
-node_modules
+# Build
 dist
-cache
-.idea
+
+# Dependencies
+node_modules
+
+# Debug
+logs
+*.log
+pnpm-debug.log*
+
+# Local env files
 .env
 .env.local
-logs
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Turbo
 .turbo
+
+# IDEs and editors
+.idea
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
